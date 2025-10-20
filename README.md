@@ -1,4 +1,4 @@
 # WEB-DEVELOPMENT
-THIS IS FOR MY WEB PROJECTS. 
-<BR>
-AUTHOR PRAGYA PANDEY
+This is for my web projects. 
+<br>
+Author Pragya Pandey
