@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale1.0">
+    <title>background Image Form</title>
+    <style>
+        .form-container{
+        background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 70px;
+            padding-bottom: 100px;
+            border-radius: 10px;
+            color: white;
+        }
+        input,label{
+            display: block;
+            margin-bottom: 10px;
+            font-size:1em;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"]{
+            width: 90%;
+            padding: 8px;
+            border: 1px solid;
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            background-color: rgb(76, 175, 80);
+            color: white;
+            padding: 10PX 15PX;
+            border: none;
+            cursor: pointer;
+        }
+         </style>
+          </head>  
+          <body>
+           
+            <h1 align="center"> SIGN UP BELOW</h1>
+            <div class="form-container">
+                <form action="/submit-form" method="post">
+         <img src="im.jpeg" alt="">
+        <lable for="name">Name:</lable>
+           <input type="text" id="name" size="2rem" name="User_Name"/>
+           <label for="email">Email</label>
+            <input type="email" id="email" name="User_email">
+            <label for="Phone Number">Phone Number:</label> 
+           <input type="int" id="Phone Number" name="user_phonenumber"/>
+        <label for="password">Password</label>
+          <input type="password"id="Password" name="user_password"/>
+         <input type="submit" value="SUBMIT">
+        </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frameset Layout</title>
+</head>
+<frameset rows="15%,9%,76%" border="1" bordercolor="pink">
+    
+    <!-- Top Section: Logo and Title -->
+    <frameset cols="20%,80%" border="1" bordercolor="red">
+        <frame src="logo.html" name="logo" scrolling="no">
+        <frame src="title.html" name="title">
+    </frameset>
+
+    <!-- Middle Section: Menu -->
+    <frame src="menu.html" name="f2" scrolling="no">
+
+    <!-- Bottom Section: Branches and Home Description -->
+    <frameset cols="15%,85%" border="1" bordercolor="red">
+        <frame src="branches.html" name="f35">
+        <frame src="homedes.html" name="f32"> <!-- Changed name to f32 to match links -->
+    </frameset>
+</frameset>
+</html>
+
+logo.html
+<!DOCTYPE html>
+<html>
+<body>
+    <img src="images/logo.jpg" alt="Book Shop Logo" width="100%" height="100%">
+</body>
+</html>
+title.html
+<!DOCTYPE html>
+<html>
+<body>
+    <center><i>ONLINE BOOK SHOP</i></center>
+</body>
+</html>
+menu.html
+<!DOCTYPE html>
+<html>
+<body>
+    <center>
+        <a href="home.html" target="f32">Home</a> |
+        <a href="about.html" target="f32">About Us</a> |
+        <a href="contact.html" target="f32">Contact</a>
+    </center>
+</body>
+</html>
+branches.html
+<!DOCTYPE html>
+<html>
+<body>
+    <table cellspacing="15">
+        <tr><td><a href="csechecktest.html" target="f32">CSE</a></td></tr>
+        <tr><td><a href="esechecktest.html" target="f32">ESE</a></td></tr>
+        <tr><td><a href="eeechecktest.html" target="f32">EEE</a></td></tr>
+        <tr><td><a href="civilchecktest.html" target="f32">CIVIL</a></td></tr>
+    </table>
+</body>
+</html>
+<homedes class="html"></homedes>
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Welcome to the Online Book Shop</h2>
+    <p>Click on a branch to view books for that department.</p>
+</body>
+</html>
+
+
